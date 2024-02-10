@@ -4,14 +4,10 @@ export const metadata = {
   description: "Product Page",
 };
 
-export default function RootLayout({
+export default function ProductDetailLayout({
   children,
 }: {
   children: React.ReactNode;
 }) {
-  return (
-    <>
-      {children}
-    </>
-  );
+  return <>{children}</>;
 }
