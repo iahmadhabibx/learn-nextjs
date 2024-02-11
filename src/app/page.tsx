@@ -1,9 +1,14 @@
-import React from 'react'
+import React from "react";
+import Link from "next/link";
 
 const Home = () => {
   return (
-    <div>Home</div>
-  )
-}
+    <main>
+      <h1>Welcome to Home</h1>
+      <Link href={"/blog"}>Blog</Link>
+      <Link href={"/products"}>Products</Link>
+    </main>
+  );
+};
 
-export default Home
+export default Home;
