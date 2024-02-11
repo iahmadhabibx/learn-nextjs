@@ -4,3 +4,4 @@
 ## layout.tsx
 ## template.tsx
 ## loading.tsx
+## error.tsx
