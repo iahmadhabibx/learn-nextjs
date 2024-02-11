@@ -1,3 +1,5 @@
+"use client"; //To ensure we can recover on client side from error we need to add this here too 
+
 import React from "react";
 import { notFound } from "next/navigation";
 const ReviewDetail = ({
