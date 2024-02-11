@@ -1,7 +1,10 @@
+// Template and Layouts have one difference is that templates does not preserve states
+
 "use client"; //Nextjs components are by default server components, to use any hook you first need to make them client component
 import Link from "next/link";
 import { usePathname } from "next/navigation";
 import "./styles.css";
+import { useState } from "react";
 
 const navLinks = [
   { name: "Register", href: "/register" },
@@ -14,8 +17,17 @@ export default function AuthLayout({
   children: React.ReactNode;
 }) {
   const pathName = usePathname();
+  const [input, setInput] = useState("");
+
   return (
     <div>
+      <div>
+        <input
+          type="text"
+          value={input}
+          onChange={(e) => setInput(e.target.value)}
+        />
+      </div>
       {navLinks.map((link) => {
         const isActive = pathName.startsWith(link.href);
         return (
