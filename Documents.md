@@ -5,6 +5,7 @@
 ## template.tsx
 ## loading.tsx
 ## error.tsx
+## default.tsx <!--This file acts as a fallback for the "slot" means paralell routes when you refresh the browser, if default.tsx is not present, the ui will go to not-found.tsx-->
 
 
 # Parallel Routes usage (Same as multiple components)
