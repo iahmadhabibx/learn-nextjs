@@ -13,6 +13,7 @@ export default function DashboardAnalytics({
   notifications: React.ReactNode;
   login: React.ReactNode;
 }) {
+  
   const isLoggedIn = true;
   return isLoggedIn ? (
     <>
