@@ -20,5 +20,19 @@
 
 <ul>
     <li>Parallel routes</li>
-    <li>Intercepting routes</li> <!-- Intercepting routes allows you to intercept or stop the default routing behavior to present an alternate view or component when navigating through the UI, while still preserving the intended route for scenarios like page reloads.-->
+    <li>Intercepting routes</li>
 </ul>
+
+## 1: Parallel routes:
+
+### Show routes in paralell such as notifications, analytics etc
+### Generated with the help of "slots"
+### Generated within same parent component using @ in the beginning of their names.
+
+## 2: Intercepting routes:
+
+### Intercepting routes allows you to intercept or stop the default routing behavior to present an alternate view or component when navigating through the UI, while still preserving the intended route for scenarios like page reloads
+### (.) to match segments in the same level
+### (..) to match segments one level above
+### (...) to match segments two level above (But this approach has some issues within next itself)
+### (...) to match segments from the "root app" directory
