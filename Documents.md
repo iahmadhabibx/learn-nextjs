@@ -21,6 +21,7 @@
 <ul>
     <li>Parallel routes</li>
     <li>Intercepting routes</li>
+    <li>Parallel Intercepting routes (Combination of Parallel and Intercepting routes)</li>
 </ul>
 
 ## 1: Parallel routes:
