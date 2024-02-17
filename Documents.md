@@ -37,3 +37,7 @@
 ### (..) to match segments one level above
 ### (...) to match segments two level above (But this approach has some issues within next itself)
 ### (...) to match segments from the "root app" directory
+
+
+# Route Handlers:
+- Equilent to api routes
